@@ -1,0 +1,65 @@
+body {
+    background-color: blueviolet;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100%;
+}
+fieldset{
+    margin 2cm 0;
+    padding 2cm 2cm;
+    border solid 12px blueviolet;
+    border-radius: 6px;
+    min-width: 200px;
+    margin-left: 20cm;
+    margin-top: 1cm;
+    position: sticky;
+    background-color: white;
+}
+label{
+    display: block;
+    margin-top: 1cm;
+    font-size: large;
+    color: black;
+}
+label:first-of-type{
+    margin-top: 0;
+}
+input[type="text"]{
+    font-size: large;
+}
+
+select[name="age"]{
+   background-color: greenyellow;
+    font-size: large;
+}
+input[type="submit"] {
+    padding: 0.3cm 0.5cm;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: antiquewhite;
+    font-size: medium;
+    display: block;
+    margin-top: 1cm;
+}
+fieldset {
+    width: 20%;
+    min-width: 320px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+label:hover{
+    color: darkred;
+    transition: 0.5s;
+}
+input[type="submit"]:hover{
+     color: darkgoldenrod;
+    background-color: aqua;
+    transition: 0.5s;
+}
+input[type="text"]:hover {
+    background-color: aqua;
+    transition: 0.5s;
+}

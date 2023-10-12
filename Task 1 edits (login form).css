@@ -1,0 +1,62 @@
+body{
+    background-image: url("images/about_04.jpg");
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100%;
+    color: antiquewhite;
+}
+fieldset{
+    margin 2cm 0;
+    padding 1cm 2cm;
+    border solid 12px blueviolet;
+    border-radius: 6px;
+    min-width: 200px;
+    margin-left: 10cm;
+    margin-top: 1cm;
+    position: sticky;
+}
+label{
+    display: block;
+    margin-top: 1cm;
+    font-size: large;
+    color: darkgoldenrod;
+}
+label:first-of-type{
+    margin-top: 0;
+}
+input[type="submit"]{
+    padding: 0.3cm 0.5cm;
+    border-radius: 5px;
+    background-color: darkslategray;
+    color: antiquewhite;
+    font-size: medium;
+    display: block;
+    margin-top: 1cm;
+}
+fieldset{
+    width: 40%;
+    min-width: 320px;
+}
+input[type="text"]{
+    font-size: large;
+}
+input[type="password"]{
+    font-size: large;
+}
+legend{
+    font-family: Castellar;
+    font-size: 80px;
+    color: darkgoldenrod;
+}
+label:hover{
+    color: darkred;
+    transition: 0.5s;
+}
+input[type="submit"]:hover{
+     color: darkred;
+    transition: 0.5s;
+}
+h1{
+    text-align: center;
+}

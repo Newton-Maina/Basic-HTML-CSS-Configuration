@@ -1,0 +1,37 @@
+body{
+    font-size: medium;
+    background-color: antiquewhite;
+}
+table{
+    border-collapse: collapse;
+    border-radius: 0.5px;
+    border-bottom: darkturquoise solid 2px;
+    font-family: Cambria;
+    margin-top: 1cm;
+    text-align: center;
+    width: 30%;
+    margin-left: 17cm;
+}
+h1 {
+    text-align: center;
+    color: darkred;
+}
+thead{
+    background-color: darkturquoise;
+    font-size: large;
+}
+table{
+    border-radius: 6px;
+}
+table.std thead tr th:first-child {
+    border-radius: 15px 0px 0px 0px;
+}
+table.std thead tr th:last-child{
+    border-radius: 0px 15px 0px 0px;
+}
+tbody tr:nth-child(even){
+    background-color: darkgray;
+    color: darkturquoise;
+    border-top: darkgray solid 2px;
+    border-bottom: darkgray solid 2px;
+}
